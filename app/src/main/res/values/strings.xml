@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Estudiante</string>
+    <string name="fullName"></string>
+    <string name="academicDegree">Grado de Academico</string>
+    <string name="curp">Curp</string>
+    <string name="dateOfAdmission">Fecha de Ingreso</string>
+    <string name="gender">Sexo</string>
+    <string name="budgetKey">Clave Presupuestal</string>
+
+
+
+</resources>
