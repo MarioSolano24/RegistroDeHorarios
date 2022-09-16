@@ -13,7 +13,7 @@ fun main(){
         "Mario Solano Cruz",
         AcademicLevel.ASSOCIATE,
         "SOCM970909HOCLRR00",
-        LocalDate.parse("2000-01-01"),
+        LocalDate.parse("2022-01-01"),
         "SOCM9709092000"
     )
 
@@ -42,19 +42,19 @@ fun main(){
         CheckInOut(
             LocalDate.parse("2022-09-14"),
             employee,
-            LocalTime.parse("08:00"),
-            LocalTime.parse("12:00")
+            LocalTime.parse("08:11"),
+            LocalTime.parse("16:00")
         ),
         CheckInOut(
             LocalDate.parse("2022-09-15"),
             employee,
-            LocalTime.parse("08:30"),
+            LocalTime.parse("08:11"),
             LocalTime.parse("16:00")
         ),
         CheckInOut(
             LocalDate.parse("2022-09-16"),
             employee,
-            LocalTime.parse("09:00"),
+            LocalTime.parse("08:11"),
             LocalTime.parse("16:00")
         )
     )
@@ -70,6 +70,7 @@ fun main(){
 
     println("La antiguedad del empleado ${employee.fullName} es: ${employee.getSeniority()}")
     println("Faltas: ${incident.getAbsences()}")
+    println("retardo: ${incident.getRetardant()}")
 }
 
 @RequiresApi(Build.VERSION_CODES.O)

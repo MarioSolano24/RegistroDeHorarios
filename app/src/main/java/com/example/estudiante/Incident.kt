@@ -14,7 +14,7 @@ data class Incident (val employee: Employee,
                      val finalDate: LocalDate
 ){
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun getRetardant(): Int {
+     fun getRetardant(): Int {
         val checks= checksInOut.filter { it.employee==employee &&
                 it.date>=initialDate && it.date<=finalDate
         }
