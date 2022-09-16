@@ -13,12 +13,12 @@ fun main(){
         "Mario Solano Cruz",
         AcademicLevel.ASSOCIATE,
         "SOCM970909HOCLRR00",
-        LocalDate.parse("2022-01-01"),
+        LocalDate.parse("2019-01-01"),
         "SOCM9709092000"
     )
 
     val period = Period(
-        LocalDate.parse("2000-02-02"),
+        LocalDate.parse("2019-02-02"),
         LocalDate.parse("2022-09-20"),
         "Periodo general"
     )

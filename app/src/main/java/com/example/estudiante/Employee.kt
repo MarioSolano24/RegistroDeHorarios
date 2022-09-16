@@ -1,19 +1,6 @@
 package com.example.estudiante
 
-/*import android.os.Build
-import androidx.annotation.RequiresApi
-import java.time.LocalDate
 
-class Employee (val int:Int,
-                val fullName:String,
-                val academicDegree:String,
-                val curp: String,
-                val dateOfAdmission:LocalDate,
-                val gender:String,){
-
-@RequiresApi(Build.VERSION_CODES.O)
-val  toRegister= listOf(Employee(1,"mario","universitario","socm970909hoclrr00",LocalDate.parse("2022-09-08"),"masculino"))
-}*/
 import android.os.Build
 import androidx.annotation.RequiresApi
 import java.time.LocalDate
